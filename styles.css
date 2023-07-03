@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caprasimo&family=Roboto:ital,wght@0,700;1,500&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+
+    background: black;
+    color: white;
+
+    font-family: Agdasima, sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+    background: url('/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 18em;
+    /* font-weight: 700; */
+}
+h2 {
+    font-size: 3em;
+}
